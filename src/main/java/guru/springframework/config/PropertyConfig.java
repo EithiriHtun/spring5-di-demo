@@ -12,22 +12,22 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class PropertyConfig {
 
-    @Value("${guru.username}")
+   // @Value("${guru.username}")
     String user;
 
-    @Value("${guru.password}")
+   // @Value("${guru.password}")
     String password;
 
-    @Value("${guru.dburl}")
+   // @Value("${guru.dburl}")
     String url;
 
-    @Value("${guru.jms.username}")
+   // @Value("${guru.jms.username}")
     String jmsUsername;
 
-    @Value("${guru.jms.password}")
+    //@Value("${guru.jms.password}")
     String jmsPassoword;
 
-    @Value("${guru.jms.url}")
+   // @Value("${guru.jms.url}")
     String jmsUrl;
 
     @Bean

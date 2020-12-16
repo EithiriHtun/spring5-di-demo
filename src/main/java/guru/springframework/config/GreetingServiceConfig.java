@@ -19,12 +19,12 @@ public class GreetingServiceConfig {
         return new GreetingServiceFactory(repository);
     }
 
-    @Bean
+  /*  @Bean
     @Primary
     @Profile({"default", "en"})
     GreetingService primaryGreetingService(GreetingServiceFactory greetingServiceFactory){
         return greetingServiceFactory.createGreetingService("en");
-    }
+    }*/
 
     @Bean
     @Primary
